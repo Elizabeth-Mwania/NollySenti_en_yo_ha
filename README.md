@@ -32,6 +32,10 @@ The project utilizes TSV-formatted datasets for training and evaluation:
 
 Each dataset contains labeled examples of film-related text with corresponding sentiment labels.
 
+### Dataset Source
+
+- **Primary Dataset**: [Davlan/nollysenti](https://huggingface.co/datasets/Davlan/nollysenti) - A comprehensive multilingual Nollywood sentiment analysis dataset available on Hugging Face
+
 ## 🛠️ Technical Stack
 
 - **Language**: Python 3
@@ -39,6 +43,10 @@ Each dataset contains labeled examples of film-related text with corresponding s
 - **Computation**: GPU-accelerated (T4 GPU on Google Colab)
 - **Notebooks**: Jupyter Notebook (IPython)
 - **Data Format**: TSV (Tab-Separated Values)
+
+### Pre-trained Models
+
+- **Model**: [Davlan/afro-xlmr-base](https://huggingface.co/Davlan/afro-xlmr-base) - XLM-RoBERTa model fine-tuned for African languages including Yoruba and Hausa
 
 ## 🚀 Getting Started
 
@@ -131,7 +139,19 @@ For questions or suggestions regarding this project, please open an issue on thi
 
 ---
 
-## 🔗 Related Resources
+## 📚 References & Resources
+
+### Dataset & Model Resources
+
+- **Dataset**: [Davlan/nollysenti](https://huggingface.co/datasets/Davlan/nollysenti) - Multilingual Nollywood sentiment analysis dataset on Hugging Face
+- **Pre-trained Model**: [Davlan/afro-xlmr-base](https://huggingface.co/Davlan/afro-xlmr-base) - XLM-RoBERTa model fine-tuned for African languages
+
+### Academic References
+
+- **Paper**: [NollySenti: Sentiment Analysis for Code-Switched Nollywood Movie Reviews](https://arxiv.org/abs/2305.10971)
+- **Original Implementation**: [IyanuSh/NollySenti - GitHub Repository](https://github.com/IyanuSh/NollySenti)
+
+### Documentation & Tutorials
 
 - [Transformers Library Documentation](https://huggingface.co/transformers/)
 - [Nollywood Industry Overview](https://en.wikipedia.org/wiki/Nollywood)
